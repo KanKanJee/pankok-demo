@@ -1,0 +1,231 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+.vph {
+    height: 80vh;
+
+}
+
+.noheight {min-height: 0; }
+
+.trsprent {
+    background: transparent;
+
+}
+
+
+
+
+.h1x{ font-size: 72px; line-height: 80px; font-weight: 100; }
+
+@media all and (max-width: 990px){
+	.h1x{ font-size: 56px; line-height: 64px; }
+}
+
+@media all and (max-width: 767px){
+	.h1x{ font-size: 32px; line-height: 40px; font-weight: 300; }
+	
+}
+
+.white {
+    color: white;
+    font-weight: 400;
+}
+
+.white:hover {
+    color: white;
+}
+
+.grey:hover {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.grey {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.lozad[data-background-image]{ 
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+    object-fit: cover; 
+    background-size: cover;
+    background-position: center center;
+}
+
+noscript div {
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+    object-fit: cover; 
+    background-size: cover;
+    background-position: center center;
+
+}
+
+p {
+    font-size: 15px;
+}
+li {
+    font-size: 15px;
+}
+
+.ul-indent {
+    list-style-position: outside;
+    list-style-type: none;
+    
+}
+
+.ul-indent>li {
+    padding: 13px;
+    margin-bottom: 0px;
+}
+
+
+.first-cover {
+    background-position: center top !important;
+
+}
+
+
+
+@media all and (max-width: 767px) {
+
+    .full-height-mobile { 
+        min-height: 95vh;
+        max-height: 95vh;
+        height: 95vh; 
+    }
+    
+    .mbpadtop {
+        padding-top:  150px;
+    }
+    
+    }
+
+
+    @media all and (max-width: 767px) and (max-height:555px) {
+        
+        .mbpadtop {
+            padding-top:  85px;
+        }
+     }
+
+     @media all and (max-width: 767px) and (min-height:750px) {
+        
+        .mbpadtop {
+            padding-top:  300px;
+        }
+     }
+
+     @media  (max-width: 990px) and (max-height:400px) {
+
+        .full-height-mobile { 
+            min-height: 95vh;
+            max-height: 400px;
+            height: 400px; 
+        }
+        
+        h1.h1res {
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        .mbpadtop {
+            padding-top:  5px;
+        }
+     }
+
+
+     @media  (max-width: 354px) and (max-height:493px) {
+
+        
+        
+        h1.h1res {
+            font-size: 30px;
+            line-height: 40px;
+        }
+
+        .mbpadtop {
+            padding-top:  30px;
+        }
+     }
+
+
+     
+
+
+
+
+
+
+
+@media all and (min-width: 990px) {
+    .height-img-square {
+        height: 900px;
+        max-height: 900px;
+    }
+}
+
+br {
+    display: inline-block !important;
+    float: none;
+    position: static;
+ }
+
+
+ ul.ipir {
+    list-style-type: disc;
+    list-style-position: inside;
+    list-style-image: none;
+    line-height: 200%;
+   }
+ 
+
+   .headimg {
+       background-size: contain;
+       background-position: center  !important;
+   }
+
+   @media all and (max-width: 690px) {
+    
+    .headimg {
+        background-position: 70% 15%  !important;
+        
+    }
+   }
+    
+
+   .hmap1 {
+       height: 58vh;
+   }
+
+
+
+   @media all and (min-width: 990px) {
+       .pad990 {
+           padding: 0 100px;
+       }
+   }
+
+
+   @media (max-width: 767px) {
+    section.contact1 {
+        padding: 20px;}
+    }
+   
+
+    @media all and (max-width: 990px) {
+        .overflowyes {
+            overflow: scroll !important;
+        }
+    }
+    

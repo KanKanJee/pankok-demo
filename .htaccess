@@ -1,0 +1,4 @@
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} !^kokkoristherapy\.gr [NC,OR]
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://kokkoristherapy.gr/$1 [R=301,L]
